@@ -1,6 +1,6 @@
 {
   "name": "get-relative-whatwg-url",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,6 +34,7 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "@types/jest": "^25.1.1",
+    "@types/mocha": "^9.0.0",
     "@types/node": "^16.7.6",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",

@@ -1,6 +1,29 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Join the chat at https://gitter.im/pdmlab/community](https://badges.gitter.im/pdmlab/community.svg)](https://gitter.im/pdmlab/community)
 
-# ts-node-prettier-vscode-starter
+# get-relative-whatwg-url
+
+WHATWG URL doesn't support relative URLs. This leads to the fact that Node.js doesn't provide a method to simply get the relative path of an WHATWG URL including query params and hash.
+
+`get-relative-whatwg-url` solves this issue (because e.g. RFC7807 allows relative URLs).
+
+## Installation
+
+```bash
+npm install get-relative-whatwg-url
+```
+
+or
+
+```bash
+yarn add get-relative-whatwg-url
+```
+
+## Usage
+
+```typescript
+const url = new URL('/test?test=test#test', 'http://tempuri.org'
+const relative = getRelativeURL(url) // -> "/test?test=test#test"
+```
 
 ## Want to help?
 

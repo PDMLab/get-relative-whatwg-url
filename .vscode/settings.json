@@ -8,9 +8,5 @@
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  },
-  "mochaExplorer.files": "test/**/*.ts",
-  "mochaExplorer.require": "ts-mocha",
-  "mochaExplorer.exit": true,
-  "mochaExplorer.timeout": 5000
+  }
 }

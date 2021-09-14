@@ -1,7 +1,7 @@
 {
   "name": "get-relative-whatwg-url",
   "version": "0.0.2",
-  "description": "",
+  "description": "Get relative path of WHATWG URLs ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
